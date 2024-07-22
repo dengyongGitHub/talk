@@ -8,7 +8,7 @@
 
     if (!user) {
         alert('登录过期')
-        location.href = baseURL + 'login.html'
+        location.href = 'login.html'
         // 那么就结束这个函数 return
         return
     }
