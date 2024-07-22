@@ -32,7 +32,7 @@ form.onsubmit = async (e) => {
     const resp = await API.logIn(obj)
     if (resp.code === 0) {
         // window.alert('登录成功，确定跳转首页')
-        location.href = baseURL + 'index.html'
+        location.href = '/index.html'
     } else {
         respLoginId.p.innerText = '账号或密码错误'
         respLoginPwd.input.value = ''
