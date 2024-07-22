@@ -53,7 +53,7 @@ form.onsubmit = async (e) => {
     console.log(obj);
     const resp = await API.reg(obj)
     if (resp.code === 0) {
-        window.alert('注册成功，确定跳转登录页面')
+        // window.alert('注册成功，确定跳转登录页面')
         location.href = 'login.html'
     }
 }
