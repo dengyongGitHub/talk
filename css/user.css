@@ -9,6 +9,12 @@ body {
   color: #fff;
   letter-spacing: 3px;
   background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.user-form .rong{
+  display: block;
+  color: yellow;
+  margin-bottom:10px;
 }
 .user-form a {
   text-decoration: underline;
@@ -22,6 +28,7 @@ body {
   margin: 50px auto;
 }
 .title img {
+  border-radius:50%;
   height: 50px;
   margin-right: 20px;
 }

@@ -75,7 +75,7 @@
         }
         const img = $$$('img')
         img.className = 'chat-avatar'
-        img.src = infoObj.from ? './asset/tx.png' : './asset/robot-avatar.jpg'
+        img.src = infoObj.from ? './asset/tx.png' : 'https://pic.rmb.bdstatic.com/bjh/events/3c32f628b613ab477f43a4eaccad283f2034.jpeg@h_1280'
 
         const chatContent = $$$('div')
         chatContent.className = 'chat-content'
