@@ -8,7 +8,7 @@
 
     if (!user) {
         alert('登录过期')
-        location.href = '/静态页面/login.html'
+        location.href = baseURL + 'login.html'
         // 那么就结束这个函数 return
         return
     }
@@ -57,7 +57,7 @@
         const close = doms.close
         close.onclick = () => {
             API.loginOut()
-            location.href = '/login.html'
+            location.href = baseURL + 'login.html'
         }
     }
 

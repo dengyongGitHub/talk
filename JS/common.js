@@ -9,3 +9,4 @@ function $$(dom) {
 function $$$(create) {
     return document.createElement(create)
 }
+const baseURL = '/talk/'
