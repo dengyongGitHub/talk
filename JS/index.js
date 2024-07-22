@@ -48,8 +48,8 @@
 
     // 设置用户信息
     function setUserInfo() {
-        doms.rightInfo.thisName.innerText = user.nickname
-        doms.rightInfo.thisID.innerText = user.loginId
+        doms.rightInfo.thisName.innerText += user.nickname
+        doms.rightInfo.thisID.innerText += user.loginId
     }
 
     // 注销
@@ -75,7 +75,7 @@
         }
         const img = $$$('img')
         img.className = 'chat-avatar'
-        img.src = infoObj.from ? './asset/tx.png' : 'https://pic.rmb.bdstatic.com/bjh/events/3c32f628b613ab477f43a4eaccad283f2034.jpeg@h_1280'
+        img.src = infoObj.from ? '/asset/tx.png' : '/asset/cxk1.jpg'
 
         const chatContent = $$$('div')
         chatContent.className = 'chat-content'
