@@ -57,7 +57,7 @@
         const close = doms.close
         close.onclick = () => {
             API.loginOut()
-            location.href = baseURL + 'login.html'
+            location.href = 'login.html'
         }
     }
 
